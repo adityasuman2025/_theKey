@@ -40,11 +40,3 @@ web/              Next.js App Router frontend
   src/i18n/       Message catalogs (EN + ES) with pluralization
   src/context/    Simulated user auth context
 ```
-
-## Seed Data
-
-- **Courses**: CS101, Math 201
-- **Students**: Aarav (cs101 + math201), Rohan (cs101), Priya (math201), Amit (cs101 + math201)
-- **Moderator**: Anjali (access to all courses)
-- **Posts**: 10 posts spread across both courses
-- **Pre-saved**: A few bookmarks so the saved list isn't empty on first load
