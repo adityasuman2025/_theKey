@@ -59,9 +59,6 @@ const PostCard = function PostCard({
       </div>
       <p className="post-content">{post.content}</p>
       <div className="post-footer">
-        <span>
-          {t("feed.by")} {post.authorId}
-        </span>
         <span>{t("saves_count", { count: post.savesCount })}</span>
       </div>
     </article>

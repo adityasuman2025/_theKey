@@ -233,6 +233,11 @@ body {
   border-color: var(--saved-color);
 }
 
+.save-btn:disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
 .delete-btn {
   padding: 4px 10px;
   border: 1px solid var(--danger);
